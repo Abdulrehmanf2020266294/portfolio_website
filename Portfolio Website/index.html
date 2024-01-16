@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio Website</title>
+    <!-- Linking CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Fontawesome link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Header & Navbar -->
+    <header class="bg-dark fixed-top">
+      <nav class="container-xxl navbar navbar-expand-lg py-3 bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-3" href="#">Abdulrehman</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#touristspots">Touristspots</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#cities">Cities</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#personalities">Personalities</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero or Showcase Section -->
+    <section class="hero d-flex flex-column align-items-center justify-content-center">
+      <div class="text-center">
+        <h1 class="h1 text-white fw-medium fst-italic">Abdulrehman</h1>
+        <h2 class="display-3 text-white fw-bold">Computer Science <br /> Student</h2>
+        <a href="#skills" class="btn btn-lg fs-6 fw-medium mt-5 btn-primary p-3">TELL ME MORE</a>
+      </div>
+    </section>
+    
+    <!--  -->
+    <section class="container py-5" id="skills">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2>Skills</h2>
+          <h5 class="text-secondary fw-normal py-2 fst-italic">Continuously improving my skills and knowledge in the field.</h5>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-between mx-0">
+        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+          <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-cart-shopping"></i>
+          <h3 class="mt-4 h4">Front-end Development</h3>
+          <p class="text-center">Proficient in HTML, CSS, and JavaScript. Experienced in responsive web design, building user-friendly interfaces, and using modern frameworks like ReactJS.</p>
+        </div>
+        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+          <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-laptop"></i>
+          <h3 class="mt-4 h4">Back-end Development</h3>
+          <p class="text-center">Skilled in server-side programming using technologies like Node.js and Express. Experience working with databases such as MongoDB and MySQL.</p>
+        </div>
+        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+          <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-mobile-screen-button"></i>
+          <h3 class="mt-4 h4">Mobile App Development</h3>
+          <p class="text-center">Proficient in developing mobile apps for iOS and Android using frameworks like React Native. Experienced in building engaging and intuitive mobile user interfaces.</p>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- TOURISTSPOT Section -->
+    <section class="container py-5" id="touristspots">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2>Tourist spots</h2>
+          <h5 class="text-secondary fw-normal py-2 fst-italic">My favourite spots where i want to visit i have visited some of them.</h5>
+        </div>
+        <div class="row mt-5 mx-0 justify-content-center align-items-center">
+          <div class="col-lg-3 col-md-4 col-12 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/minar.jpg" class="img-fluid" alt="Minar-e-Pakistan">
+              <div class="card-body text-center">
+                <h6 class="card-title">Minar-e-Pakistan</h6>
+                <p class="card-text text-secondary">Minar-e-Pakistan is a national monument located in Iqbal Park in Lahore, Pakistan. It was built to commemorate the Lahore Resolution of 1940, which eventually led to the creation of Pakistan.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/wazirkhan.jpg" class="img-fluid" alt="Wazir Khan Mosque">
+              <div class="card-body text-center">
+                <h6 class="card-title">Wazir Khan Mosque</h6>
+                <p class="card-text text-secondary">Wazir Khan Mosque is a historic mosque located in the city of Lahore, Pakistan. It was built in the 17th century during the reign of Emperor Shah Jahan. The mosque is renowned for its stunning Mughal architecture.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/bahriaeiffel.jpg" class="img-fluid" alt="Bahria Eiffel Tower-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Bahria Eiffel Tower</h6>
+                <p class="card-text text-secondary">Bahria Eiffel Tower refers to a landmark located in the Bahria Town housing project in Karachi, Pakistan. It is a replica of the Eiffel Tower in Paris and serves as an iconic structure within the Bahria Town community. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/fairymeadows.jpg" class="img-fluid" alt="fairymeadows-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Fairy Meadows</h6>
+                <p class="card-text text-secondary">Fairy Meadows is a breathtaking destination located in the Gilgit-Baltistan region of Pakistan, near the base of the Nanga Parbat, the world's ninth-highest mountain</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/hunza.jpg" class="img-fluid" alt="hunza-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Hunza</h6>
+                <p class="card-text text-secondary">Hunza is a mountainous valley located in the Gilgit-Baltistan region of Pakistan. It is situated in the northern part of the country, near the border with China and Afghanistan</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/italy.jpg" class="img-fluid" alt="colosseum-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Colosseum</h6>
+                <p class="card-text text-secondary">The Colosseum, also known as the Flavian Amphitheatre, is an ancient amphitheater located in the center of Rome, Italy. It is considered one of the greatest works of Roman architecture and engineering. The Colosseum was used for gladiatorial contests, </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </section>
+
+    <!-- cities Section -->
+    <section class="container py-5" id="cities">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2>Cities</h2>
+          <h5 class="text-secondary fw-normal py-2 fst-italic">i deeply in love with these cities and all i want in my life is to visit them one day</h5>
+        </div>
+        <div class="row mt-5 mx-0 justify-content-center align-items-center">
+          <div class="col-lg-3 col-md-4 col-12 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/karachi.jpg" class="img-fluid" alt="karachi-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">karachi</h6>
+                <p class="card-text text-secondary">Karachi is the capital city of the Pakistani province of Sindh. It is the largest city in Pakistan and 12th largest in the world, with a population of over 20 million.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/makkah.jpg" class="img-fluid" alt="makkah-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Makkah</h6>
+                <p class="card-text text-secondary">Mecca, in a desert valley in western Saudi Arabia, is Islams holiest city, as its the birthplace of the Prophet Muhammad and the faith itself. </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/sialkot.jpg" class="img-fluid" alt="sialkot-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Sialkot</h6>
+                <p class="card-text text-secondary">Sialkot is a city located in Punjab, Pakistan. It is the capital of the Sialkot District and is the 13th most populous city in Pakistan. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+            
+    </section>
+
+    <!-- personality -->
+    
+    <section class="container py-5" id="personalities">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2>personalities</h2>
+          <h5 class="text-secondary fw-normal py-2 fst-italic">These are the personalities whom i admire and try to follow their process of how they become so successfull in their field</h5>
+        </div>
+        <div class="row mt-5 mx-0 justify-content-center align-items-center">
+          <div class="col-lg-3 col-md-4 col-12 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/kohli.jpg" class="img-fluid" alt="virat kohli-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Virat Kohli</h6>
+                <p class="card-text text-secondary">Virat Kohli is an Indian international cricketer and the former captain of the Indian national cricket team. He currently represents Royal Challengers Bangalore in the IPL and Delhi in domestic cricket. Kohli is widely regarded as one of the greatest batsmen in the history of cricket</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/babar.jpg" class="img-fluid" alt="babarazam-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Babar Azam</h6>
+                <p class="card-text text-secondary">Mohammad Babar Azam, is a Pakistani international cricketer and the former captain of the Pakistan national cricket team in all formats. He is widely regarded as one of the finest batters in contemporary world cricket</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 card-wrapper">
+            <div class="card mt-4">
+              <img src="images/pat.jpg" class="img-fluid" alt="portfolio-img">
+              <div class="card-body text-center">
+                <h6 class="card-title">Patrick Cummins</h6>
+                <p class="card-text text-secondary">Patrick James Cummins is an Australian international cricketer who captains the Australian cricket team in Test and One Day International cricket. He is regarded as one of the best fast bowlers in the modern game, </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+            
+    </section>
+
+     <!-- Contact Section -->
+     <section class="py-5" id="contact">
+      <div class="container-xxl py-5">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2 class="text-white">CONTACT ME</h2>
+          <h5 class="text-white fw-normal py-2 fst-italic">Interested if I'd be the right fit for your team? Fill in this form and I will respond within 24-48 hours.</h5>
+        </div>
+        <div class="row pt-4 mt-5">
+          <div class="col-12">
+            <form action="#" method="POST">
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Enter Name*" required>
+                    <label for="floatingInput">Enter Name*</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingEmail" placeholder="Enter Email*" required>
+                    <label for="floatingEmail">Enter Email*</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="floatingPassword" placeholder="Enter Phone*" required>
+                    <label for="floatingPassword">Enter Phone*</label>
+                  </div>
+                </div>
+                <div class="form-floating col-lg-6">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingMessage" style="height: 205px" required></textarea>
+                  <label for="floatingMessage" class="px-4">Enter Message*</label>
+                </div>
+                <div class="col-12 mt-5 d-flex justify-content-center">
+                  <button class="btn btn-lg btn-outline-light">SEND MESSAGE</button>
+                </div>
+              </div>
+  
+            </form>
+          </div>
+        </div>
+       </div>
+     </section>
+
+     <!-- Footer -->
+     <footer>
+      <div class="container-xxl flex-wrap pt-3 d-flex align-items-center justify-content-between">
+        <p>Copyright © 2024 Abdulrehmanf2020266294</p>
+        <ul class="social-icons d-flex">
+          <a href="https://www.facebook.com/home.php" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-twitter"></i></small></a>
+          <a href="https://twitter.com/i/flow/single_sign_on" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-facebook-f"></i></small></a>
+          <a href="https://www.linkedin.com/checkpoint/lg/login-submit" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-linkedin-in"></i></small></a>
+        </ul>
+      </div>
+     </footer>
+    
+     <!-- Bootstrap script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
